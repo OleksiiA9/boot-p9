@@ -1,0 +1,27 @@
+
+@font-face {
+    font-family: 'colaboratelightregular';
+    src: url('Colaborate/ColabLig/colablig-webfont.woff2') format('woff2'),
+         url('Colaborate/ColabLig/colablig-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'chunkfiveroman';
+    src: url('ChunkFive/chunkfive-webfont.woff2') format('woff2'),
+         url('ChunkFive/chunkfive-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'contraregular';
+    src: url('Contra/7fonts.ru_contra__-webfont.woff2') format('woff2'),
+         url('Contra/7fonts.ru_contra__-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}

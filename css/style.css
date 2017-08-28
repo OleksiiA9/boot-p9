@@ -260,6 +260,7 @@
 }
 .footer .row{
     text-align: left;
+    width: 80%;
 }
 .footer .row .footer-top{
     padding-left: 100px;
@@ -271,6 +272,10 @@
     padding-top: 30px;
     padding-bottom: 30px;
 }
+.footer .row .footer-top{
+    border-bottom: 1px solid #56566a;
+    margin-bottom: 18px;
+}
 .footer .row .footer-top blockquote footer{
     float: right;
 }
@@ -279,7 +284,140 @@
 }
 .footer-mid .row .col6 .subscribe h4{
     font-family: 'colaboratelightregular';
-    color: #acacb2;
+    color: #fff;
     font-size: 25px;
+    font-weight: 300;
+}
+.footer-mid .row .col6 .subscribe p{
+    color: #87878f;
+    font-family: 'colaboratelightregular';
+    font-size: 14px;
+    font-weight: 300;
+}
+.footer-mid .row .col6 .subscribe form{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.footer-mid .row .col6 .subscribe form input:first-child{
+    width: 210px;
+    display: block;
+    padding: 8px 14px;
+    border: 1px solid #4d4d5c;
+    background: #242439;
+    border-radius: 6px;
+    margin-right: 15px;
+    color: #5e5e6a;
+    font-family: 'colaboratelightregular';
+    font-size: 14px;
+    font-weight: 300;
+}
+.footer-mid .row .col6 .subscribe form input:last-child{
+    width: 85px;
+    height: 40px;
+    display: block;
+    background: #e7e8ea;
+    border-radius: 7px;
+    border: none;
+    color: #363648;
+    font-family: 'colaboratelightregular';
+    font-size: 14px;
+    font-weight: 300;
+    cursor: pointer;
+}
+.footer-mid .social{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-bottom: 20px;
+}
+.footer-mid .social div{
+    display: block;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    margin-right: 14px;
+    margin-bottom: 10px;
+    padding-top: 20px;
+}
+.footer-mid .social div:last-child{margin-right: 0;}
+.footer-mid .social div a{
+    display: block;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    background: #464659 url(../images/p1/twitterm.png) center center no-repeat;
+}
+.footer-mid .social div:nth-child(2) a{background: #464659 url(../images/p1/facebookm.png) center center no-repeat;}
+.footer-mid .social div:last-child a{background: #464659 url(../images/p1/inm.png) center center no-repeat;}
+.footer-mid .social div a:hover{background-color: #e7e8ea;}
+.footer-mid .row .col6 h4{
+    color: #fff;
+    font-family: 'colaboratelightregular';
+}
+.footer-mid-contact{
+    width: 414px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer-mid-contact-inp{
+    overflow: hidden;
+    display: block;
+    margin-right: 10px;
+}
+
+.footer-mid-contact input{
+    display: block;
+    width: 210px;
+    border: 1px solid #575768;
+    border-radius: 6px;
+    background: #242439;
+    margin-bottom: 10px;
+    color: #5e5e6a;
+    font-family: 'colaboratelightregular';
+    font-size: 14px;
+    font-weight: 300;
+    height: 26px;
+    padding-left: 6px;
+}
+.footer-mid-contact textarea{
+    width: 190px;
+    display: block;
+    color: #5e5e6a;
+    font-family: 'colaboratelightregular';
+    font-size: 14px;
+    font-weight: 300;
+    padding-left: 6px;
+    border: 1px solid #575768;
+    border-radius: 6px;
+    background: #242439;
+    height: 98px;
+}
+.footer-mid-contact-button{
+    width: 100%;
+}
+.footer-mid-contact .footer-mid-contact-but{
+    float: right;
+    width: 85px;
+    height: 40px;
+    background: #e7e8ea;
+    border-radius: 7px;
+    border: none;
+    color: #363648;
+    font-family: 'colaboratelightregular';
+    font-size: 14px;
+    font-weight: 300;
+    cursor: pointer;
+    padding: 0;
+    margin-right: 4px;
+}
+.fotter-bot{
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 12px;
+    font-family: 'colaboratelightregular';
+    color: #b8b8bc;
+    font-size: 14px;
     font-weight: 300;
 }
